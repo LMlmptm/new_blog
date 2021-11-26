@@ -1,0 +1,69 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block title %}个人中心{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="{% static 'blog/css/my_blog.css' %}">
+    <link href="{% static 'blog/css/github.css'%}" rel="stylesheet">
+    <link href="{% static 'blog/css/blog_nav.css' %}" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div class="container"  id="aa">
+  <div class="row" id="cc">                                                            青春     奔放    活泼   </div>
+  <div class="col-md-9" id="bb">
+    <div id="ee">
+      <table width="120%" border="0" align="center" cellpadding="100" cellspacing="0">
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td><p>姓名：懿曼</p></td>
+        </tr>
+        <tr>
+          <td>性别：男</td>
+        </tr>
+        <tr>
+          <td>年龄：老了</td>
+        </tr>
+        <tr>
+          <td>家乡：<a href="https://www.meet99.com/map-fuyuan.html">云南省富源县</a></td>
+        </tr>
+        <tr>
+          <td>就读院校：<a href="http://www.kmu.edu.cn/">昆明大学</a></td>
+        </tr>
+        <tr>
+          <td>就读专业：<a href="http://www.kmu.edu.cn/ssjg.jsp?wbtreeid=1001">软件工程专业</a></td>
+        </tr>
+        <tr>
+          <td>学生证号：16110741####</td>
+        </tr>
+        <tr>
+          <td>兴趣爱好：爱好女</td>
+        </tr>
+        <tr>
+          <td>政治面貌：团员</td>
+        </tr>
+        <tr>
+          <td>联系电话：159119*****</td>
+        </tr>
+        <tr>
+          <td>QQ:1852509672(有事发邮箱给我看见会给你回)</td>
+        </tr>
+        <tr>
+          <td>关键词：大学生</td>
+        </tr>
+        <tr>
+          <td>经历：<br/>高中对外面充满未知，贪玩好奇，没有多少人喜欢，朋友也很少，好奇新鲜事物，正因为这个好奇，成就了今天我成绩不好的原因。
+        三不好大学生，刚刚开始对大学充满好奇，结果上了大学，发现，其实大学也好无聊，大学也没有什么突出成绩，经常垫底把，习惯了,没人爱也没人疼，当然除了自己 </td>
+        </tr>
+      </table>
+    </div>
+    <img src="{% static 'blog/images/logo_test.jpeg'%}" width="930" height="400" /></div>
+  <div id="ff">
+    <div class="button_style_2" id="gg">
+     <a href="{% url 'blog:index' %}">回到主页</a>
+
+    </div>
+  About  me</div>
+
+</div>
+
+{% endblock %}

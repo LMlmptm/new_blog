@@ -1,0 +1,224 @@
+body {
+    font-weight: 400;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 70px;
+}
+
+/* Navbar and footer (global) styling */
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar {
+    color: black;
+    border-width: thin;
+    -webkit-transition: .2s;
+    background-color: white;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar-fixed-top .navbar-brand {
+    /*padding: 5px 0px;*/
+    /*margin-left: 15px;*/
+}
+
+.navbar-header .icon-bar {
+    background-color: black;
+}
+
+.navbar-nav > li > .navbar-active {
+    color: #E46E2E;
+}
+
+.navbar-scroll {
+  background-color: white;
+    animation-duration: 2s;
+    animation-name: smooth;
+    -moz-box-shadow: 1px 1px 1px #999;
+    -webkit-box-shadow: 1px 1px 1px #999;
+    box-shadow: 1px 1px 1px #999;
+}
+/*底层logo*/
+nav .navbar-brand{
+    padding-top: 12px;
+
+}
+/*我的博客*/
+nav a span{
+    font-size: 24px;
+}
+
+/*body{*/
+/*  background:url("/static/blog/images/logo_test.jpeg") no-repeat;*/
+/*  background-size: 70%;*/
+/*}*/
+
+/*body背景视频{*/
+     *{
+            margin: 0px;
+            padding: 0px;
+        }
+        video{
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+            width: auto;
+            /*加滤镜*/
+            filter: blur(15px); /*//背景模糊设置 */
+            /*webkit-filter: grayscale(100%);*/
+           /*filter:grayscale(100%); /*背景灰度设置*/
+            z-index:-11
+        }
+        source{
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+            width: auto;
+        }
+/*}*/
+/*设置logo图片大小*/
+nav a img {
+    width: 90px;
+    height: 56px;
+    display: inline-block;
+    float: left;
+
+}
+
+nav .navbar-form{
+    padding-top: 10px;
+}
+/*.navbar-logo {*/
+/*    height: 45px;*/
+/*}*/
+/*字体放大*/
+.nav > li > a {
+    font-size: 25px;
+    padding: 12px 12px 10px;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
+    color: #E46E2E;
+    -webkit-transition: .2s;
+}
+
+.nav > li > a:focus {
+    background-color: white;
+}
+
+.nav > li > a:active {
+    background-color: #F8F8F8;
+}
+
+.nav > li > a:visited {
+    background-color: #F8F8F8;
+}
+
+.tab:hover {
+    background-color: transparent;
+    color: #E46E2E;
+}
+
+.footer {
+    background-color: #979797;
+}
+
+.footer p {
+    color: white;
+    padding-top: 10px;
+}
+
+.footer li {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover, .footer a:active {
+    opacity: .8;
+}
+
+.footer li::after {
+    content:" |";
+}
+
+.footer li:last-of-type::after {
+    content:"";
+}
+
+.footer-text {
+    font-size: 16px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#back-to-top {
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: whitesmoke;
+    background: orangered;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#back-to-top i {
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+/*detail.html  回复*/
+.button_style {
+    display: inline-block;
+    padding: .3em .5em;
+    background-image: linear-gradient(#ddd, #bbb);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:white;
+    font-weight: bold;
+}
+.button_style:active{
+    box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+    border-color: rgba(0,0,0,.3);
+    background: #bbb;
+}
+
+/*reply.html  返回详情页*/
+.button_style_1 {
+    display: inline-block;
+    padding: .3em .5em;
+    background-image: linear-gradient(#00bc6f,#e62e2e);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:white;
+    font-weight: bold;
+}
+.button_style_1:active{
+    box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+    border-color: rgba(0,0,0,.3);
+    background: #bbb;
+}
+

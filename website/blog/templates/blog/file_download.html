@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}博客文件下载{% endblock %}
+{% block content %}
+    <table>
+{% for file in file_objs %}
+    <li><a href="{% url 'blog:download' file.id %}">{{ file.name }}
+    </a></li>
+{% endfor %}
+    </table>
+{% endblock %}

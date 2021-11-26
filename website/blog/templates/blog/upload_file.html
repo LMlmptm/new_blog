@@ -1,0 +1,12 @@
+
+{% extends 'blog/base.html' %}
+
+{% block title %}博客文件下载{% endblock %}
+{% block content %}
+ <h1>register</h1>
+ <form method="post" enctype="multipart/form-data" >
+ {% csrf_token %}
+ {{uf.as_ul}}
+ <input type="submit" value="ok" />
+ </form>
+{% endblock %}
